@@ -1,0 +1,131 @@
+element.style {
+    display: flex;
+}
+
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    background-color: #000066;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.udacity-logo {
+    height: 100%;
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+
+h2 {
+    color: gray;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+h3 {
+    color: gray;
+    font-size: 24px;
+}
+
+h4 {
+    color: #000066;
+    font-size: 18px;
+}
+
+picture {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #000066;
+}
+
+.my-work {
+    width: 100%;
+    padding: 10px;
+}
+
+.projects {
+    width: 33.3%;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 380px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 465px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .my-work {
+        text-align: center;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    picture {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .a {
+        padding: 1.5em;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
